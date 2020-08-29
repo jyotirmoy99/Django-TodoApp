@@ -1,0 +1,19 @@
+{% extends "todoApp/base.html" %}
+
+
+
+{% block content %}
+
+<div class="container p-5 text-center">
+    <h1 class="display-4">Yo Welcome!</h1><br><br>
+    <h2>What is TodoList?</h2>
+    <p>
+        ToDoList is software in the category of Task Management, Project Management, Productivity, “Getting Things Done”
+        (GTD), Scheduling, and Collaboration. We have a lot of choices to help us keep track of daily obligations. A
+        simple
+        list on paper of things “To Do” is enough for some people.
+    </p><br><br>
+    <a type="button" class="btn btn-info btn-lg" href="{% url 'signupuser' %}">Start</a>
+</div>
+
+{% endblock content %}
